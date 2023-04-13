@@ -1,8 +1,8 @@
 import './Delivery.css';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import { useNavigate, useLocation } from "react-router-dom";
 import { get_package } from "../requests.js";
-import { GoogleMap, LoadScript, Marker } from '@react-google-maps/api';
+import { GoogleMap, LoadScript } from '@react-google-maps/api';
 
 function Delivery() {
     let navigate = useNavigate();
